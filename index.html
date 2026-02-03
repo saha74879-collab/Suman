@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suman Saha Portfolio</title>
+    <meta name="description" content="Portfolio of Suman Saha - Web Developer & Designer">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&family=Space+Grotesk:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+    <div class="blob-cont">
+        <div class="blob blob-one"></div>
+        <div class="blob blob-two"></div>
+        <div class="blob blob-three"></div>
+    </div>
+
+    <!-- Particle Background -->
+    <canvas id="particle-canvas"></canvas>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Suman Saha Portfolio<span class="accent">.</span></a>
+            <div class="nav-links">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="btn btn-primary">Contact Me</a>
+            </div>
+            <button class="mobile-toggle" aria-label="Toggle Navigation">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="badge">Available for Work</div>
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="gradient-text">Suman Saha</span>
+                        <br>
+                        <span class="typing-text">Data Analyst</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        Data Analyst & Annotation Specialist transforming raw multi-modal data into analysis-ready
+                        datasets.
+                        Proficient in SQL, Power BI, and Excel for driving business insights.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="assets/Suman Saha.pdf" target="_blank" class="btn btn-outline" download>
+                            Download Resume <i data-lucide="download" class="icon-sm"></i>
+                        </a>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" aria-label="GitHub"><i data-lucide="github"></i></a>
+                        <a href="https://linkedin.com/in/suman8119/" aria-label="LinkedIn" target="_blank"><i
+                                data-lucide="linkedin"></i></a>
+                        <a href="mailto:saha74879@gmail.com" aria-label="Email"><i data-lucide="mail"></i></a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <div class="hero-image-container">
+                        <img src="assets/profile.jpg" alt="Suman Saha" class="hero-image">
+                        <div class="hero-glow"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <p style="text-align: center; max-width: 800px; margin: 0 auto 3rem; color: var(--text-muted);">
+                    Data Analyst & Annotation Specialist with 1.5 years of experience transforming raw multi-modal data
+                    (image, text, audio) into analysis-ready datasets.
+                    Proficient in SQL, Power BI, and Excel for building interactive dashboards and user-funnel
+                    analytics.
+                    Skilled in bridging the gap between data preparation and visualization to drive business insights.
+                </p>
+                <div class="about-grid">
+                    <div class="about-card">
+                        <i data-lucide="database" class="about-icon"></i>
+                        <h3>Data Analysis</h3>
+                        <p>Proficient in SQL and Excel for extracting insights and building interactive dashboards.</p>
+                    </div>
+                    <div class="about-card">
+                        <i data-lucide="bar-chart-2" class="about-icon"></i>
+                        <h3>Visualization</h3>
+                        <p>Expert in Power BI and Figma for designing high-fidelity dashboards and reports.</p>
+                    </div>
+                    <div class="about-card">
+                        <i data-lucide="check-circle" class="about-icon"></i>
+                        <h3>Data Annotation</h3>
+                        <p>Specialized in bounding boxes, semantic segmentation, and NER for machine learning datasets.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section alt-bg">
+            <div class="container">
+                <h2 class="section-title">Experience</h2>
+                <div class="timeline">
+                    <!-- Item 1 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2024 - Present</span>
+                            <h3>Data Annotation & Labeling Expert</h3>
+                            <p class="company">Yupcha Software (Remote)</p>
+                            <p>Engineered high-quality datasets for ML by categorizing complex image, text, audio, and
+                                video data.
+                                Performed specialized tagging (bounding boxes, segmentation). Managed data consistency
+                                audits reducing error rates.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <div class="container">
+                <h2 class="section-title">Education</h2>
+                <div class="timeline">
+                    <!-- Item 1 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2023 - 2024</span>
+                            <h3>Bachelor of Education (B.Ed)</h3>
+                            <p class="company">Rampur College</p>
+                            <p>West Bengal, India</p>
+                        </div>
+                    </div>
+                    <!-- Item 2 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2019 - 2022</span>
+                            <h3>Bachelor of Arts in History</h3>
+                            <p class="company">Ramthakur College</p>
+                            <p>Tripura, India</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="section">
+            <div class="container">
+                <h2 class="section-title">Certifications & Courses</h2>
+                <div class="skills-grid">
+                    <div class="skill-category" style="width: 100%;">
+                        <ul style="list-style: none; padding: 0; display: grid; gap: 1.5rem;">
+                            <li
+                                style="background: var(--bg-card); padding: 1.5rem; border-radius: 12px; border: 1px solid var(--border); display: flex; align-items: start; gap: 1rem;">
+                                <i data-lucide="award" style="color: var(--primary); width: 24px; min-width: 24px;"></i>
+                                <div>
+                                    <h3 style="margin-bottom: 0.5rem; font-size: 1.2rem;">Career Essentials in Data
+                                        Analysis</h3>
+                                    <p style="color: var(--text-muted);">Microsoft & LinkedIn (Nov 2025)</p>
+                                </div>
+                            </li>
+                            <li
+                                style="background: var(--bg-card); padding: 1.5rem; border-radius: 12px; border: 1px solid var(--border); display: flex; align-items: start; gap: 1rem;">
+                                <i data-lucide="award"
+                                    style="color: var(--secondary); width: 24px; min-width: 24px;"></i>
+                                <div>
+                                    <h3 style="margin-bottom: 0.5rem; font-size: 1.2rem;">Power BI Certification</h3>
+                                    <p style="color: var(--text-muted);">Simplilearn</p>
+                                </div>
+                            </li>
+                            <li
+                                style="background: var(--bg-card); padding: 1.5rem; border-radius: 12px; border: 1px solid var(--border); display: flex; align-items: start; gap: 1rem;">
+                                <i data-lucide="award" style="color: var(--primary); width: 24px; min-width: 24px;"></i>
+                                <div>
+                                    <h3 style="margin-bottom: 0.5rem; font-size: 1.2rem;">Python for Data Science</h3>
+                                    <p style="color: var(--text-muted);">Udemy</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <div class="container">
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Languages & Databases</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag"><i class="devicon-mysql-plain colored"></i> MySQL</span>
+                            <span class="skill-tag"><img src="assets/python.svg" alt="Python"> Python (Basic)</span>
+                            <span class="skill-tag"><img src="assets/sql.png" alt="SQL"> SQL</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Visualization & Tools</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag"><img src="assets/powerbi.svg" alt="Power BI"> Power BI</span>
+                            <span class="skill-tag"><img src="assets/figma.svg" alt="Figma"> Figma</span>
+                            <span class="skill-tag"><img src="assets/excel.svg" alt="Excel"> Excel (Advanced)</span>
+                            <span class="skill-tag"><img src="assets/sheets.svg" alt="Sheets"> Google Sheets</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Specialized Skills</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag"><i data-lucide="tag"></i> Data Labeling</span>
+                            <span class="skill-tag"><i data-lucide="scan-line"></i> Entity Recognition</span>
+                            <span class="skill-tag"><i data-lucide="smile"></i> Sentiment Analysis</span>
+                            <span class="skill-tag"><i data-lucide="activity"></i> User-Flow Analytics</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section alt-bg">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <!-- Placeholder -->
+                            <div class="project-placeholder"
+                                style="background: linear-gradient(135deg, #1e3a8a, #3b82f6);"></div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Uber Sales Revenue Analysis</h3>
+                            <p>Extracted and cleaned sales data using SQL/Excel. Designed high-fidelity dashboard in
+                                Figma and Power BI to visualize revenue trends.</p>
+                            <div class="project-tags">
+                                <span>Excel</span>
+                                <span>SQL</span>
+                                <span>Power BI</span>
+                                <span>Figma</span>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- Project 2 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <!-- Placeholder -->
+                            <div class="project-placeholder"
+                                style="background: linear-gradient(135deg, #be185d, #ec4899);"></div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Captchasonic - User Tracking</h3>
+                            <p>Analyzed user lifecycle metrics and built automated reporting templates in Excel. Created
+                                Power BI report for user-flow bottlenecks.</p>
+                            <div class="project-tags">
+                                <span>Excel</span>
+                                <span>Power BI</span>
+                                <span>Figma</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container contact-container">
+                <div class="contact-content">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <p>I'm currently looking for new opportunities in Data Analysis and Annotation.
+                        <br>West Tripura, India / Remote
+                    </p>
+                    <a href="mailto:saha74879@gmail.com" class="btn btn-primary btn-lg">Say Hello</a>
+                    <p style="margin-top: 1rem; color: var(--text-muted);">+91 9366380631</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 Suman Saha. All rights reserved.</p>
+            <div class="footer-socials">
+                <a href="#"><i data-lucide="github"></i></a>
+                <a href="#"><i data-lucide="linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+        // Initialize Lucide Icons
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>
